@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Technical Project Management</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="app-container">
+    <!-- Left Sidebar -->
+    <aside class="sidebar">
+      <button class="sidebar-btn">1</button>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Header -->
+      <header class="header">
+        <div class="logo">
+          <div class="logo-icon">🧠</div>
+          <div class="logo-text">
+            DEEP <span class="blue-text">THOUGHT</span>
+          </div>
+        </div>
+        <div class="header-actions">
+          <button class="icon-btn" title="Home" aria-label="Home">🏠</button>
+          <button class="icon-btn" title="Settings" aria-label="Settings">⚙️</button>
+          <button class="icon-btn" title="Notifications" aria-label="Notifications">🔔</button>
+          <img class="avatar" src="https://i.pravatar.cc/32" alt="User Avatar" />
+          <button class="icon-btn more-btn" title="More" aria-label="More">⋮</button>
+        </div>
+      </header>
+
+      <!-- Page Title and Submit -->
+      <section class="page-header">
+        <h1 class="page-title">Technical Project Management</h1>
+        <button class="submit-btn">Submit task</button>
+      </section>
+
+      <!-- Info Box -->
+      <section class="info-box">
+        <strong>Explore the world of management</strong>
+        <p>
+          As a project manager, you play an important role in leading a project through initiation, planning, execution, monitoring, controlling and completion. How? Do you want to manage each and every step of your life?
+        </p>
+      </section>
+
+      <!-- Cards Container -->
+      <section class="cards-row">
+        <!-- Left Card -->
+        <article class="card">
+          <div class="card-header">
+            <h2>Technical Project Management</h2>
+            <button class="info-btn" title="Info" aria-label="Info">i</button>
+          </div>
+          <div class="card-description">
+            <strong>Description:</strong> Story of Alignment Scope of Agility Specific Accountable Staggering Approach
+          </div>
+          <div class="card-content video-container">
+            <iframe
+              src="https://www.youtube.com/embed/3s6v6v7Q6xk"
+              title="Technological Project Management"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </article>
+
+        <!-- Right Card -->
+        <article class="card">
+          <div class="card-header">
+            <h2>Threadbuild</h2>
+            <button class="info-btn" title="Info" aria-label="Info">i</button>
+          </div>
+          <div class="card-description">
+            <strong>Description:</strong> Watch the video and threadbuild, and jot out key threads while watching the video
+          </div>
+          <div class="card-content threadbuild">
+            <details open>
+              <summary>Thread A</summary>
+              <div class="thread-row">
+                <div class="thread-input">
+                  <label for="sub-thread-1">Sub thread 1</label>
+                  <textarea id="sub-thread-1" placeholder="Enter Text here"></textarea>
+                </div>
+                <div class="thread-input">
+                  <label for="sub-interpretation-1">Sub Interpretation 1</label>
+                  <textarea id="sub-interpretation-1" placeholder="Enter Text here"></textarea>
+                </div>
+              </div>
+              <div class="thread-actions">
+                <button class="icon-btn" title="Idea" aria-label="Idea">💡</button>
+                <button class="icon-btn" title="Comment" aria-label="Comment">💬</button>
+                <button class="icon-btn" title="Help" aria-label="Help">❓</button>
+                <button class="icon-btn" title="Download" aria-label="Download">⬇️</button>
+                <select aria-label="Select Category" class="select-category">
+                  <option>Select Categ</option>
+                  <option>Category 1</option>
+                  <option>Category 2</option>
+                </select>
+                <select aria-label="Select Process" class="select-process">
+                  <option>Select Process</option>
+                  <option>Process 1</option>
+                  <option>Process 2</option>
+                </select>
+              </div>
+              <button class="sub-thread-btn">+ Sub-thread</button>
+              <textarea class="summary-textarea" placeholder="Summary for Thread A"></textarea>
+            </details>
+          </div>
+        </article>
+      </section>
+
+      <!-- Additional Cards Row -->
+      <section class="cards-row">
+        <!-- Structure your Pointers Card -->
+        <article class="card">
+          <div class="card-header">
+            <h2>Structure your Pointers</h2>
+            <button class="info-btn" title="Info" aria-label="Info">i</button>
+          </div>
+          <div class="card-description">
+            <strong>Description :</strong> Write a 300 - 400 word article from your thread. Publish your understanding and showcase your understanding to the entire world
+          </div>
+          <div class="card-content">
+            <label for="title">Title</label>
+            <input type="text" id="title" placeholder="" />
+            <label for="content">Content</label>
+            <textarea id="content" placeholder="Write your content here..."></textarea>
+          </div>
+        </article>
+
+        <!-- 4SA Method Card -->
+        <article class="card">
+          <div class="card-header">
+            <h2>4SA Method</h2>
+            <button class="info-btn" title="Info" aria-label="Info">i</button>
+          </div>
+          <div class="card-description">
+            <strong>Description :</strong> To Explore more read more
+          </div>
+          <div class="card-content">
+            <details open>
+              <summary>Introduction</summary>
+              <p>The 4SA Method, How to bring a idea into progress?</p>
+            </details>
+            <details>
+              <summary>Thread A</summary>
+              <p>
+                How are you going to develop your strategy? Which method are you going to use to develop a strategy? What if the project is lengthy?
+              </p>
+              <details>
+                <summary>Example 1</summary>
+                <p>You have a concept, How will you put into progress?</p>
+              </details>
+            </details>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <!-- Right vertical Notice Board -->
+    <aside class="notice-board">
+      <button class="close-btn" aria-label="Close Notice Board">×</button>
+      <div class="notice-text">
+        <span>N</span>
+        <span>o</span>
+        <span>t</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span></span>
+        <span>B</span>
+        <span>o</span>
+        <span>a</span>
+        <span>r</span>
+        <span>d</span>
+      </div>
+    </aside>
+  </div>
+</body>
+</html>
